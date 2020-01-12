@@ -630,8 +630,6 @@ footer {
 @media (max-width: 320px) {
   .main-img {
     display: none !important; }
-  header {
-    height: 550px; }
     header img {
       display: none; }
     header .top {
