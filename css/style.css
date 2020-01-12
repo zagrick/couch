@@ -568,8 +568,8 @@ footer {
     margin: 0 auto; }
   h2 {
     font-size: 25px; }
-  .side {
-    display: none; }
+  .side, .main-img {
+    display: none !important; }
   .top {
     padding: 20px; }
     .top nav ul li {
