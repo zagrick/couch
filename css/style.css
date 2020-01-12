@@ -568,8 +568,8 @@ footer {
     margin: 0 auto; }
   h2 {
     font-size: 25px; }
-  .side, .main-img {
-    display: none !important; }
+  .side {
+    display: none; }
   .top {
     padding: 20px; }
     .top nav ul li {
@@ -628,6 +628,8 @@ footer {
     text-align: center; } }
 
 @media (max-width: 320px) {
+  .main-img {
+    display: none !important; }
   header {
     height: 550px; }
     header img {
