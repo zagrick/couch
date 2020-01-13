@@ -638,7 +638,11 @@ header{
     display: block;
     margin-top: 0; }
   .profs__img {
-    margin: -220px; }
+    margin: 0 !important; }
+  .profs__img img{
+    width: 50% !important;
+    height: auto !important;
+	}
   .profs__body p {
     font-size: 20px; }
   .footer__body {
