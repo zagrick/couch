@@ -588,7 +588,7 @@ header{
   h1 {
     font-size: 30px;
     width: 100%;
-    margin-left: -35px !important; }
+    margin-left: -50px !important; }
   h2 {
     font-size: 25px; }
   .side {
@@ -648,7 +648,10 @@ header{
   .footer__text, .footer h2, .footer p {
     width: 100% !important; }
   .footer h2 {
-    text-align: center; } }
+    text-align: center; } 
+  .footer__bottom {
+    padding: 0; }
+}
 
 @media (max-width: 320px) {
   header{
