@@ -656,7 +656,7 @@ header{
   }
   h1 {
     font-size: 20px;
-    margin: 20px auto; }
+    margin: 0 !important; }
   .main__body {
     margin: 20px; }
   .footer {
