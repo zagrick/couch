@@ -583,7 +583,9 @@ header{
           margin: -5px -35px; }
         header .top nav ul li:last-child:before {
           margin: 5px -30px; }
-      header .top__text ul li, header .top__text ul li:nth-child(2) {
+      header .top__text ul li,
+      header .top__text ul li:first-child,
+      header .top__text ul li:nth-child(2) {
         width: 100% !important; }
   h1 {
     font-size: 30px;
