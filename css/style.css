@@ -641,12 +641,14 @@ header{
     margin: 0 !important; }
   .profs__img img{
     width: 50% !important;
-    height: auto !important;
+    height: 50% !important;
 	}
   .profs__body p {
     font-size: 20px; }
   .footer__body {
-    margin: 20px; }
+        margin: 20px 0 !important;
+    	word-break: break-word !important;
+	}
   .footer__rows {
     display: block; }
   .footer__img {
