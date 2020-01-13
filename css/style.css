@@ -570,6 +570,21 @@ header{
 	height: 100%;
 	object-fit: cover;
 }
+	header .top {
+      width: 50%;
+      margin: 0 auto; }
+      header .top__text p {
+        font-size: 10px; }
+      header .top nav ul {
+        display: block; }
+      header .top nav ul li {
+        padding-top: 5px; }
+        header .top nav ul li:nth-child(3):before {
+          margin: -5px -35px; }
+        header .top nav ul li:last-child:before {
+          margin: 5px -30px; }
+      header .top__text ul li, header .top__text ul li:nth-child(2) {
+        width: 50%; }
   h1 {
     font-size: 30px;
     width: 100%;
@@ -639,21 +654,6 @@ header{
   header{
     height: 550px;
   }
-    header .top {
-      width: 50%;
-      margin: 0 auto; }
-      header .top__text p {
-        font-size: 10px; }
-      header .top nav ul {
-        display: block; }
-      header .top nav ul li {
-        padding-top: 5px; }
-        header .top nav ul li:nth-child(3):before {
-          margin: -5px -35px; }
-        header .top nav ul li:last-child:before {
-          margin: 5px -30px; }
-      header .top__text ul li, header .top__text ul li:nth-child(2) {
-        width: 50%; }
   h1 {
     font-size: 20px;
     margin: 20px auto; }
